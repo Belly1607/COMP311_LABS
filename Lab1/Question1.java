@@ -1,39 +1,40 @@
 /**
  * NAME: Esabel Mutisi
- * STUDENT ID: 2200423
+ * STUDENT ID: 24020114
+ * Question 1
  */
 
 
 public class Question1 {
     public static void main(String[]args) {
-        //declare a variable called name, age, GPA,fullTime
+        //declare a variable called name, age, gpa,fullTime, 
 
         String name;
         int age;
-        double GPA;
+        double gpa;
         boolean fullTime;
          
         //assign variable name with a name called "Esabel Mutisi"
 
         name = "Esabel Mutisi";
 
-        //assign variable age with 20
+        //assign variable age with 21
 
         age = 21;
 
-        //assign variable GPA with 3.6
+        //assign variable gpa with 4.36
 
-        GPA = 4.45;
+        gpa = 4.36;
 
         //assign variable full-time with true
         fullTime = true;
 
-        //print out the values of name,age,GPA,full-time,course and studentID
+        //print out the values of name,age,gpa,full-time
 
-        System.out.println("Name: " + name); //print out the value of name
-        System.out.println("Age: " + age);   //print out the value of age
-        System.out.println("GPA: " + GPA);   //print out the value of GPA
-        System.out.println("Full-time: " + fullTime); //print out the value of full-time
+        System.out.println("Name: " + name); 
+        System.out.println("Age: " + age);   
+        System.out.println("GPA: " + gpa);   
+        System.out.println("Full-time: " + fullTime); 
         
     }
 }
