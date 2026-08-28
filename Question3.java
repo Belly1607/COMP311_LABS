@@ -12,7 +12,7 @@ public class Question3 {
         // declare scanner
         Scanner scan = new Scanner ( System.in);
 
-        //print out a message to the user asking fot their name
+        //print out a message to the user asking for their name
         System.out.print("Please enter your name: ");
 
         // declare a variable called name and it reads the name from the user
@@ -31,7 +31,7 @@ public class Question3 {
         futureAge = age + 5;
 
         // declare a string variable called sentence which reads the name and future age of the user
-        String sentence = "Hello " + name + "! In five years, you will be " + futureAge + " years old";
+        String sentence = "Hello " + name + "! In five years, you will be " + futureAge + " years old.";
         
         //displays the sentence
         System.out.println(sentence);
