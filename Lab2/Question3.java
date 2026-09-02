@@ -1,7 +1,7 @@
 /**
  * Name: Esabel Mutisi
  * Student ID: 24020114
- * Question 4 : Reading Student Records from a File
+ * Question 3 : Reading Student Records from a File
  */
 
 // import i.o package from java.io to read from a file
