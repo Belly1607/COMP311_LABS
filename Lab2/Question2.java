@@ -42,6 +42,7 @@ public class Question2 {
         System.out.println("Letter entered: " + letter);
         System.out.println("The letter " + letter + " is " + isEqual + " to the first letter of the full name.");
         
+        input.close();
 
     }
 }

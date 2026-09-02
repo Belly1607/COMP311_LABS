@@ -46,5 +46,7 @@ public class Question1{
             // Display an error message if the mark is out of bounds
             System.out.println("Error: Please enter a mark between 0 and 100");
         }
+
+        console.close();
     }
 }

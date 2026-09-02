@@ -22,6 +22,8 @@ public class Question3 {
         while (console.hasNextLine()) {
             System.out.println("Name: "+ console.nextLine());
         }
+
+        console.close();
         
     }
 }
