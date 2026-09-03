@@ -13,9 +13,6 @@ import java.util.Scanner;
 public class Question4 {
     public static void main(String[] args) throws Exception {
 
-        // create a file called results.txt 
-        File f = new File("results.txt");
-
         // declare a scanner so that the user can write in the file
         Scanner input = new Scanner(System.in);
 
