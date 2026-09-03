@@ -1,0 +1,4 @@
+Total negative numbers are -125373  in the numbers file
+Total positive numbers are 126292  in the numbers file
+There are 496 positive numbers in the numbers file
+There are 502 negative numbers in the numbers file
