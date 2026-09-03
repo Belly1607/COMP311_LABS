@@ -39,6 +39,6 @@ public class Question5 {
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
         System.out.println("Remainder: " + remainder);
-
+         input.close();
     }
 }

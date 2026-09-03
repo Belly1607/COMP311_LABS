@@ -36,5 +36,7 @@ public class Question8 {
         //print the area perimeter of the rectangle
         System.out.println("Area: " + area);
         System.out.println("Perimeter: " + perimeter);
+
+        input.close();
     }
 }

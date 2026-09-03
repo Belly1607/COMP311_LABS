@@ -34,5 +34,7 @@ public class Question9 {
         System.out.println("Upper case: " + uppercase);
         System.out.println("Lower case: " + lowercase);
         System.out.println("Contains \"Java\": " + containsJava);
+
+        scan.close();
     }
 }

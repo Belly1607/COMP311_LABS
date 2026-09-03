@@ -29,5 +29,6 @@ public class Question7{
         // Display both the Celsius and Fahrenheit temperatures
         System.out.println(celsiusTemperature + " degrees Celsius is "+ fahrenheitTemperature + " degrees Fahrenheit.");
         
+        input.close();
     }
 }

@@ -35,6 +35,8 @@ public class Question3 {
         
         //displays the sentence
         System.out.println(sentence);
+
+        scan.close();
     }
 
 }

@@ -30,6 +30,6 @@ public class Question6 {
 
         //display the average
         System.out.println("Average: " + average);
-
+        input.close();
     }
 }

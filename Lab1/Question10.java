@@ -31,5 +31,7 @@ public class Question10 {
         System.out.println("First name: " + firstName);
         System.out.println("Surname: " + surname);
         System.out.println("Initials: " + initials);
+
+        input.close();
     }
 }
