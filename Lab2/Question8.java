@@ -1,7 +1,7 @@
 /**
  * Name: Esabel Mutisi
  * Student ID: 24020114
- * Question 7 — File Statistics — Smallest, Largest and Average
+ * Question 8 — Counting Evens and Odds
  */
 
 import java.io.*;
@@ -31,8 +31,8 @@ public class Question8 {
             }
         }
 
-        p.write("There are "+ countEven + " even numbers");
-        p.write("There are "+ countOdd + " odd numbers");
+        p.println("There are "+ countEven + " even numbers");
+        p.print("There are "+ countOdd + " odd numbers");
 
         input.close();
         p.close();
