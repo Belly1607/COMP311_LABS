@@ -1,3 +1,5 @@
+package COMP311_LABS.Lab3;
+
 /**
  * Name: Esabel Mutisi
  * Student ID: 24020114
