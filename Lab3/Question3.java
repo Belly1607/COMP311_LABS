@@ -27,7 +27,8 @@ public class Question3 {
                 i++;
             }
             
-            //increase the number by 1 after each loop            number++;
+            //increase the number by 1 after each loop       
+             number++;
 
         }
     }
