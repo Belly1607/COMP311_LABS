@@ -6,6 +6,7 @@ package COMP311_LABS.Lab5;
  * Question 1 — Creating a Class
  * Question 2 — Adding a Constructor
  * Question 3 — Creating Objects
+ * Question 4 — Adding a Method
  */
 
 //create a class called Book
@@ -47,5 +48,12 @@ public class Book {
     //create a getter method to return the price of the Book object
     public double getPrice() {
         return price;
+    }
+
+    //create a method called getSummary() that returns the Book details as one String
+    public String getSummary() {
+        
+        //return the title, author, and price on separate lines
+        return "Title: " + title + "\n" + "Author: " + author + "\n" + "Price: " + price;
     }
 }
