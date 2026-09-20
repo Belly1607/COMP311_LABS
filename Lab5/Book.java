@@ -7,6 +7,7 @@ package COMP311_LABS.Lab5;
  * Question 2 — Adding a Constructor
  * Question 3 — Creating Objects
  * Question 4 — Adding a Method
+ * Question 5 — Encapsulation
  */
 
 //create a class called Book
@@ -55,5 +56,26 @@ public class Book {
         
         //return the title, author, and price on separate lines
         return "Title: " + title + "\n" + "Author: " + author + "\n" + "Price: " + price;
+    }
+
+    //create a setter method to change the title of the Book object
+    public void setTitle(String title) {
+
+        //assign the new title value to the title field
+        this.title = title;
+    }
+
+    //create a setter method to change the author of the Book object
+     public void setAuthor(String author) {
+
+        //assign the new author value to the author field
+        this.author = author;
+    }
+    
+    //create a setter method to change the price of the Book object
+     public void setPrice(double price) {
+
+        //assign the new price value to the price field
+        this.price = price;
     }
 }
