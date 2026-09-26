@@ -19,9 +19,7 @@ public class Question3 {
         try {
 
             //create a Scanner object to read missing.txt
-            Scanner input = new Scanner(
-                new FileReader("COMP311_LABS\\Lab7\\missing.txt")
-            );
+            Scanner input = new Scanner(new FileReader("COMP311_LABS\\Lab7\\missing.txt"));
 
             //read and display each line if the file exists
             while (input.hasNextLine()) {
