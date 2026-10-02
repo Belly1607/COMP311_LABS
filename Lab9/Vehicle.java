@@ -5,6 +5,7 @@ package COMP311_LABS.Lab9;
  * Question 2 - The super Keyword
  * Question 3 - Overriding a Method
  * Question 4 - Using protected Fields
+ * Question 5 — Overriding toString()
  */
 
 // create a parent class called Vehicle
@@ -49,5 +50,13 @@ class Car extends Vehicle {
     public void displaySpeed() {
         // display the speed of the car
         System.out.println("The speed of the car is: " + speed + "km/hr");
+    }
+
+    //override the toString method to return a readable summary of the Car object
+    @Override 
+    public String toString(){
+
+        //return the car's speed and number of doors as a String
+        return "Car speed: " + speed + "\nNumber of doors: " + numberOfDoors;
     }
 }

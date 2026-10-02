@@ -1,15 +1,14 @@
 package COMP311_LABS.Lab9;
 
-/*
-* Name: Esabel Mutisi
+/**
+ * Name: Esabel Mutisi
  * Student Id: 24020114
- * Question 3 - Overriding a Method
- */
-
-/*  create a parent class called Vehicle
-public class Vehicle {
-    // declare a field to store the speed of the vehicle as private
-    private int speed;
+ * Question 4 - Using protected Fields
+ 
+// create a parent class called Vehicle
+ class Vehicle {
+    // declare a field to store the speed of the vehicle as protected so that it can be accessed by subclasses
+    protected int speed;
 
     // create a constructor to set the speed
     public Vehicle(int speed) {
@@ -43,15 +42,23 @@ class Car extends Vehicle {
         // display the number of doors and the speed of the car
         System.out.println("Number of doors: " + numberOfDoors + "\n" + "it's speed is: " + speed + "km/hr");
     }
+
+    // create a method that directly accesses the protected speed field
+    public void displaySpeed() {
+        // display the speed of the car
+        System.out.println("The speed of the car is: " + speed + "km/hr");
+    }
+}
 */
-public class Question3 {
+
+public class Question4 {
+
     public static void main(String[] args) {
 
-        // create an instance of Car with speed 120 km/hr and 4 doors
+        //create a Car object
         Car c1 = new Car(120, 4);
 
-        // call the overridden describe method
-        System.out.print("Car 1: ");
-        c1.describe();
+        //call the method that directly accesses the protected speed field
+        c1.displaySpeed();
     }
 }

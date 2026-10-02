@@ -4,7 +4,7 @@ package COMP311_LABS.Lab9;
  * Name: Esabel Mutisi
  * Student Id: 24020114
  * Question 2 — The super Keyword
- */
+ 
 
 // create a parent class called Vehicle
 class Vehicle {
@@ -43,7 +43,7 @@ class Car extends Vehicle {
         this.numberOfDoors = numberOfDoors;
     }
 }
-
+*/
 public class Question2 {
 
     public static void main(String[] args) {
