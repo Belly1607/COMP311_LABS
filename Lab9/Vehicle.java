@@ -4,6 +4,7 @@ package COMP311_LABS.Lab9;
 * Student Id : 24020114
 * Question 1 — Basic Inheritance
 * Question 2 — The super Keyword
+* Question 3 — Overriding a Method
  */
 
 //create a parent class called Vehicle
@@ -40,6 +41,13 @@ class Car extends Vehicle{
 
         //initialize the numberOfDoors field
         this.numberOfDoors = numberOfDoors;
+    }
+    //override the describe method inherited from Vehicle
+    @Override
+	public void describe (){
+
+        //display the number of doors and the speed of the car
+        System.out.println("Number of doors: " + numberOfDoors + "\n" + "it's speed is:    " + speed + "km/hr"); 
     }
     
 }
