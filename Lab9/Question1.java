@@ -5,7 +5,7 @@ package COMP311_LABS.Lab9;
 * Question 1 — Basic Inheritance
  */
 
-//create a parent class called Vehicle
+/* create a parent class called Vehicle
 class Vehicle {
 
     // declare a field to store the speed of the vehicle as private so that it can be accessed by subclasses
@@ -25,12 +25,12 @@ class Vehicle {
     // declare a field to store the number of doors as private so that it can only be accessed within the Car class
     private int numberOfDoors;
 }
-
+*/
 public class Question1 {
     public static void main(String[] args) {
 
         // create an instance of vehicle
-        Vehicle v1 = new Vehicle();
+        Vehicle v1 = new Vehicle(0);
         System.out.print("Vehicle 1: ");
         v1.describe();
     }
