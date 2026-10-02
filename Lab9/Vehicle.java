@@ -6,6 +6,7 @@ package COMP311_LABS.Lab9;
  * Question 3 - Overriding a Method
  * Question 4 - Using protected Fields
  * Question 5 — Overriding toString()
+ * Question 6 — Polymorphism with an Array
  */
 
 // create a parent class called Vehicle
@@ -59,4 +60,24 @@ class Car extends Vehicle {
         //return the car's speed and number of doors as a String
         return "Car speed: " + speed + "\nNumber of doors: " + numberOfDoors;
     }
+}
+
+//create a Motorbike subclass that inherits from Vehicle
+class Motorbike extends Vehicle {
+
+    //create a constructor that receives the speed
+     public Motorbike(int speed){
+
+        //call the Vehicle constructor to set the speed
+        super(speed);
+     }
+
+     //override the describe method inherited from Vehicle
+     @Override
+     public void describe(){
+
+        //display information about the motorbike
+        System.out.println("This is a motorbike with speed: " + speed + "km/hr");
+     }
+
 }

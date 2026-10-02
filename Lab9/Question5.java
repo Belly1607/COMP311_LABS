@@ -5,7 +5,7 @@ package COMP311_LABS.Lab9;
  * Student Id: 24020114
  * Question 5 — Overriding toString()
 
-/*override the toString method to return a readable summary of the Car object
+  override the toString method to return a readable summary of the Car object
     @Override 
     public String toString(){
 
